@@ -1,0 +1,140 @@
+@media screen and (max-width: 991px) {
+	.all-wrapper {
+		background-position: top left -350px;
+	}
+	.heading-section .form-side {
+		padding: 25px 35px;
+		width: 375px;
+		margin-bottom: 100px;
+	}
+	.heading-section .form-heading {
+		margin-bottom: 17px;
+	}
+	.heading-section .text-side h1 {
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+	.heading-section .text-side {
+		margin-bottom: 0;
+	}
+	.our-awards li {
+		display: block;
+		margin: 0 auto 40px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.heading-section__inner {
+		display: block;
+	}
+	.heading-section {
+		margin-top: 20px;
+	}
+	.heading-section .form-side {
+		background: rgba(48, 61, 95, .6);
+		width: 100%;
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
+	.heading-section .text-side {
+		padding: 0;
+		text-align: center;
+	}
+	.why-we {
+		margin-top: 50px;
+	}
+	.why-we__inner h2 {
+		font-size: 28px;
+	}
+	.language p {
+		display: none;
+	}
+	.why-we__list li {
+		width: 50%;
+		margin-bottom: 15px;
+	}
+	.why-we__list {
+		flex-flow: row wrap;
+	}
+	.footer-top {
+		.copyright, .made-by{
+			float: none;
+			text-align: center;
+		}
+	}
+	.logos {
+		margin: 30px 0;
+	}
+	.footer-bottom {
+		display: block;
+		text-align: center;
+	}
+	.footer-bottom .sert {
+		text-align: left;
+		margin: 10px auto;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.heading-section .text-side h1 {
+		font-size: 25px;
+	}
+	.heading-section .text-side p {
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.heading-section .form-heading {
+		font-size: 16px;
+	}
+	.heading-section .terms-label {
+		font-size: 12px;
+		margin-bottom: 10px;
+		display: block;
+	}
+	.heading-section .terms-label input {
+		height: auto;
+	}
+	.heading-section input[type=submit] {
+		font-size: 14px;
+	}
+	.why-we__list li {
+		width: 100%;
+		padding: 0;
+	}
+	.our-awards li .logo-side {
+		float: none;
+		img {
+			margin: auto;
+		}
+	}
+	.our-awards li .txt-side {
+		margin-left: 0;
+	}
+	.our-awards li:last-child .txt-side {
+		margin-left: 0;
+	}
+	.footer-bottom .bottom-txt {
+		padding: 0;
+	}
+	.footer-bottom .sert {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

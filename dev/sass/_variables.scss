@@ -1,4 +1,31 @@
-$mainColor: #333;
-$fontFamily: Helvetica, Arial, sans-serif;
-$linkColor: #699;
-$bgColor: #f8f8f8;
+@font-face {
+    font-family: 'proxima';
+    src: url('../fonts/proxima_nova_light.woff2') format('woff2'),
+         url('../fonts/proxima_nova_light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima';
+    src: url('../fonts/proxima_nova_regular.woff2') format('woff2'),
+         url('../fonts/proxima_nova_regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima';
+    src: url('../fonts/proxima_nova_semibold.woff2') format('woff2'),
+         url('../fonts/proxima_nova_semibold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima';
+    src: url('../fonts/proxima_nova_thin.woff2') format('woff2'),
+         url('../fonts/proxima_nova_thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
